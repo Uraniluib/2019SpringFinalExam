@@ -1,0 +1,95 @@
+\documentclass[book,12pt]{WSUThesis}
+
+%*************** Packages *************************************
+\usepackage{WSUThesis}
+\usepackage{amsfonts,amsmath,amssymb,amsthm}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx}
+   \DeclareGraphicsExtensions{.eps}
+\usepackage{colortbl}
+\usepackage[hang,small,bf]{caption}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage[normalem]{ulem}
+\usepackage{vmargin}
+\usepackage{multirow}
+\usepackage{makeidx}
+\usepackage{natbib}
+\usepackage[breaklinks]{hyperref}
+\hypersetup{
+    pdffitwindow=false,
+    pdftitle={Activity Models Revisited},
+    pdfauthor={Parisa Rashidi},
+    pdfsubject={Dissertation},
+    colorlinks=true, % false: boxed links; true: colored links
+    linkcolor=black,
+    citecolor=BlueViolet,
+    urlcolor=BlueViolet,
+    breaklinks=true,
+    hypertexnames=false,
+    bookmarksnumbered=true,
+    backref,
+    ps2pdf
+}
+\usepackage[all]{hypcap}
+\usepackage{bookmark}
+
+\newtheorem{mydef}{Definition}
+
+%*************** Page Setup *************************************
+
+\setUpThesisPages
+
+%*************** Information *************************************
+
+% set your information here:
+\setmyname{Jinglin Tao}  % NAME
+\setmymonth{March}                  % Month degree is granted
+\setmyyear{2019}                  % Year degree is granted
+\setmycommitteea{Yinghui Wu}    % Committee Members:
+\setmycommitteeb{Assefaw Gebremedhin}
+\setmycommitteec{Larry Holder}
+%\setmycommitteed{Fourth Committee Member}
+%\setmycommitteee{Fifth Committee Member}
+
+\setmytitle{My Dissertation Title} %Title
+
+\setmydept{Department of Electrical Engineering and Computer Science} % DEPARTMENT
+\setmyschool{Washington State University}                                           % SCHOOL
+\setmydegree{Master Science of Computer Science}                                    % DEGREE TYPE
+\setmythesis{Dissertation}                                            % Dissertation (Ph.D)
+\setCopyright                                                         % Adds the copyright notice. Comment this line if material is not copyrighted.
+
+%*************** Prologue *************************************
+
+\begin{document}
+
+% pretext pages
+\DisplayTitlePage     % displays the title page with your provided information
+\DisplayCopyright     % displays the copyright page with your provided information:
+                      % you don't need need to comment this line even if you don't have copyrighted material. Just commenting \setCopyright suffices.
+\DisplaySignaturePage % displays the signature page with your provided information
+\input{./../pretext/acknowledge}
+\input{./../pretext/abstract}
+
+% Table of contents, list of figures, list of tables
+\setUpTables
+
+\input{./../pretext/dedicate}
+
+%*************** Main Content *************************************
+\setUpThesisStyle
+\input{./../chapter1/chapter1}
+\input{./../chapter2/chapter2}
+\input{./../chapter3/chapter3}
+\input{./../chapter4/chapter4}
+\input{./../chapter5/chapter5}
+\input{./../chapter6/chapter6}
+\input{./../conclusion/conclusion}
+
+%*************** Epilogue *************************************
+\let\WriteBookmarks\relax
+\pdfbookmark[0]{Bibliography}{thebibliography}
+\bibliography{./bibtex/refs}
+\bibliographystyle{plainnat}
+
+\end{document}
