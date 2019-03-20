@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  25 JAN 2019 02:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  19 MAR 2019 21:58
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -185,56 +185,45 @@ us 2pt \@minus 1pt \sbox \@tempboxa {#1: #2}\ifdim \wd \@tempboxa >\hsize #1: #
 2\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@tempboxa \hfil
  }\fi \vskip \belowcaptionskip .
 \c@ContinuedFloat=\count100
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
-Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count101
-\sf@farskip=\skip56
-\sf@captopadj=\dimen123
-\sf@capskip=\skip57
-\sf@nearskip=\skip58
-\c@subfigure=\count102
-\c@subfigure@save=\count103
-\c@lofdepth=\count104
-\c@subtable=\count105
-\c@subtable@save=\count106
-\c@lotdepth=\count107
-\sf@top=\skip59
-\sf@bottom=\skip60
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ulem\ulem.sty"
 \UL@box=\box28
 \UL@hyphenbox=\box29
-\UL@skip=\skip61
+\UL@skip=\skip56
 \UL@hook=\toks29
-\UL@height=\dimen124
-\UL@pe=\count108
-\UL@pixel=\dimen125
+\UL@height=\dimen123
+\UL@pe=\count101
+\UL@pixel=\dimen124
 \ULC@box=\box30
 Package: ulem 2012/05/18
-\ULdepth=\dimen126
+\ULdepth=\dimen125
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\vmargin\vmargin.sty"
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
 
 Package: vmargin 2004/07/15 V2.5 set document margins (VK)
-\PaperWidth=\dimen127
-\PaperHeight=\dimen128
+\PaperWidth=\dimen126
+\PaperHeight=\dimen127
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip62
-\multirow@cntb=\count109
-\multirow@dima=\skip63
-\bigstrutjot=\dimen129
+\multirow@colwidth=\skip57
+\multirow@cntb=\count102
+\multirow@dima=\skip58
+\bigstrutjot=\dimen128
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count103
+\c@subtable=\count104
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip64
-\bibsep=\skip65
+\bibhang=\skip59
+\bibsep=\skip60
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count110
+\c@NAT@ctr=\count105
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
@@ -292,14 +281,14 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen130
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\@linkdim=\dimen129
+\Hy@linkcounter=\count106
+\Hy@pagecounter=\count107
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count108
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -312,17 +301,17 @@ Package hyperref Info: Plain pages OFF on input line 4524.
 Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4762.
-\c@Hy@tempcnt=\count114
+\c@Hy@tempcnt=\count109
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
-\XeTeXLinkMargin=\dimen131
-\Fld@menulength=\count115
-\Field@Width=\dimen132
-\Fld@charsize=\dimen133
+\XeTeXLinkMargin=\dimen130
+\Fld@menulength=\count110
+\Field@Width=\dimen131
+\Fld@charsize=\dimen132
 Package hyperref Info: Hyper figures OFF on input line 6369.
 Package hyperref Info: Link nesting OFF on input line 6374.
 Package hyperref Info: Hyper index ON on input line 6377.
@@ -332,37 +321,37 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count116
-\c@Item=\count117
-\c@Hfootnote=\count118
+\Hy@abspage=\count111
+\c@Item=\count112
+\c@Hfootnote=\count113
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count119
-\c@bookmark@seq@number=\count120
+\Fld@listcount=\count114
+\c@bookmark@seq@number=\count115
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip66
+\Hy@SectionHShift=\skip61
 )
-Package hyperref Info: Option `pdffitwindow' set `false' on input line 32.
-Package hyperref Info: Option `colorlinks' set `true' on input line 32.
-Package hyperref Info: Option `breaklinks' set `true' on input line 32.
-Package hyperref Info: Option `hypertexnames' set `false' on input line 32.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 32.
+Package hyperref Info: Option `pdffitwindow' set `false' on input line 33.
+Package hyperref Info: Option `colorlinks' set `true' on input line 33.
+Package hyperref Info: Option `breaklinks' set `true' on input line 33.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 33.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 33.
 
 
 Package hyperref Warning: Option `backref' has already been used,
-(hyperref)                setting the option has no effect on input line 32.
+(hyperref)                setting the option has no effect on input line 33.
 
 
 Package hyperref Warning: Option `ps2pdf' has already been used,
-(hyperref)                setting the option has no effect on input line 32.
+(hyperref)                setting the option has no effect on input line 33.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
@@ -372,9 +361,9 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count121
+\BKM@id=\count116
 ))
-\c@mydef=\count122
+\c@mydef=\count117
 
 
 LaTeX Warning: Unused global option(s):
@@ -383,32 +372,32 @@ LaTeX Warning: Unused global option(s):
 (dissertation.aux)
 \openout1 = `dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
  ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count123
-\scratchdimen=\dimen134
+\scratchcounter=\count118
+\scratchdimen=\dimen133
 \scratchbox=\box31
-\nofMPsegments=\count124
-\nofMParguments=\count125
+\nofMPsegments=\count119
+\nofMParguments=\count120
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count126
-\MPscratchDim=\dimen135
-\MPnumerator=\count127
-\makeMPintoPDFobject=\count128
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen134
+\MPnumerator=\count122
+\makeMPintoPDFobject=\count123
 \everyMPtoPDFconversion=\toks31
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -423,12 +412,11 @@ Package grfext Info: Graphics extension search list:
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: hypcap package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring ON on input line 64.
+Package hyperref Info: Link coloring ON on input line 65.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -436,27 +424,27 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count129
+\c@section@level=\count124
 )
-LaTeX Info: Redefining \ref on input line 64.
-LaTeX Info: Redefining \pageref on input line 64.
-LaTeX Info: Redefining \nameref on input line 64.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 67.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 68.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 67.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 68.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -466,101 +454,110 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (../pretext/acknowledge.tex [3]) (../pretext/abstract.tex [4
 
 ])
-(dissertation.toc)
+(dissertation.toc [5])
 \tf@toc=\write3
 \openout3 = `dissertation.toc'.
 
- [5] (dissertation.lot)
+ [6] (dissertation.lot)
 \tf@lot=\write4
 \openout4 = `dissertation.lot'.
 
- [6
+ [7
 
 ] (dissertation.lof)
 \tf@lof=\write5
 \openout5 = `dissertation.lof'.
 
- [7
+ [8
 
 ]
 (../pretext/dedicate.tex) (../chapter1/chapter1.tex [1
 
-]
+] [2
 
-Package natbib Warning: Citation `RashidiSMCA09' on page 2 undefined on input l
-ine 6.
+] [3])
+(../chapter2/chapter2.tex [4] [5
 
-) (../chapter2/chapter2.tex [2
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
-]
-Package epstopdf Info: Source file: <./../chapter2/Figures/Stream.eps>
-(epstopdf)                    date: 2010-06-25 14:47:40
-(epstopdf)                    size: 33488 bytes
-(epstopdf)             Output file: <./../chapter2/Figures/Stream-eps-converted
--to.pdf>
-(epstopdf)                    date: 2019-01-25 02:06:27
-(epstopdf)                    size: 4553 bytes
-(epstopdf)             Command: <epstopdf --outfile=./../chapter2/Figures/Strea
-m-eps-converted-to.pdf ./../chapter2/Figures/Stream.eps>
-(epstopdf)             \includegraphics on input line 27.
-Package epstopdf Info: Output file is already uptodate.
-<./../chapter2/Figures/Stream-eps-converted-to.pdf, id=81, 480.79625pt x 220.82
-5pt>
-File: ./../chapter2/Figures/Stream-eps-converted-to.pdf Graphic file (type pdf)
+ []
 
-<use ./../chapter2/Figures/Stream-eps-converted-to.pdf>
-Package pdftex.def Info: ./../chapter2/Figures/Stream-eps-converted-to.pdf  use
-d on input line 27.
-(pdftex.def)             Requested size: 336.55507pt x 154.57643pt.
-) (../chapter3/chapter3.tex [3
-
- <./../chapter2/Figures/Stream-eps-converted-to.pdf>]) (../chapter4/chapter4.te
-x [4
-
-])
-(../chapter5/chapter5.tex [5
-
-]) (../chapter6/chapter6.tex [6
-
-])
-(../conclusion/conclusion.tex [7
-
-]) (dissertation.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 8.
-
+[7] [8] (fig/Section2.pdf_tex
+<fig/Section2.pdf, id=232, page=1, 733.02795pt x 518.99799pt>
+File: fig/Section2.pdf Graphic file (type pdf)
+<use fig/Section2.pdf, page 1>
+Package pdftex.def Info: fig/Section2.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 433.62001pt x 307.02184pt.
 )
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+ [9] [10 <./fig/Section2.pdf>] [11]
+<fig/graphs_category_c.png, id=297, 5018.75pt x 5018.75pt>
+File: fig/graphs_category_c.png Graphic file (type png)
+<use fig/graphs_category_c.png>
+Package pdftex.def Info: fig/graphs_category_c.png  used on input line 82.
+(pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
+<fig/graphs_category_ca.png, id=298, 3764.0625pt x 3764.0625pt>
+File: fig/graphs_category_ca.png Graphic file (type png)
+<use fig/graphs_category_ca.png>
+Package pdftex.def Info: fig/graphs_category_ca.png  used on input line 88.
+(pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
+<fig/graphs_category_a.png, id=299, 3764.0625pt x 3764.0625pt>
+File: fig/graphs_category_a.png Graphic file (type png)
+<use fig/graphs_category_a.png>
+Package pdftex.def Info: fig/graphs_category_a.png  used on input line 93.
+(pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
+)
+(../chapter3/chapter3.tex [12] [13 <./fig/graphs_category_c.png> <./fig/graphs_
+category_ca.png (PNG copy)> <./fig/graphs_category_a.png (PNG copy)>])
+(../chapter4/chapter4.tex [14
 
-Package natbib Warning: There were undefined citations.
+]) (../chapter5/chapter5.tex [15
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
-[8
+])
+(../chapter6/chapter6.tex [16
+
+]) (../conclusion/conclusion.tex [17
+
+])
+(dissertation.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
+ [18
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
  (dissertation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 95.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 8562 strings out of 493305
- 128098 string characters out of 3138874
- 215774 words of memory out of 3000000
- 11908 multiletter control sequences out of 15000+200000
- 10864 words of font info for 41 fonts, out of 3000000 for 9000
+ 8603 strings out of 493305
+ 128273 string characters out of 3138874
+ 215635 words of memory out of 3000000
+ 11876 multiletter control sequences out of 15000+200000
+ 13223 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,10n,39p,259b,387s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,8n,39p,1770b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on dissertation.pdf (16 pages, 111666 bytes).
+/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on dissertation.pdf (27 pages, 32252292 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 110 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 491 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

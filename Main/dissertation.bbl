@@ -1,8 +1,19 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Newman(2003)]{newman2003structure}
+Mark~EJ Newman.
+\newblock The structure and function of complex networks.
+\newblock \emph{SIAM review}, 45\penalty0 (2):\penalty0 167--256, 2003.
+
+\bibitem[Zesch and Gurevych(2007)]{zesch2007analysis}
+Torsten Zesch and Iryna Gurevych.
+\newblock Analysis of the wikipedia category graph for nlp applications.
+\newblock In \emph{Proceedings of the Second Workshop on TextGraphs:
+  Graph-Based Algorithms for Natural Language Processing}, pages 1--8, 2007.
 
 \end{thebibliography}

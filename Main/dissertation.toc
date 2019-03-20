@@ -1,18 +1,41 @@
 \contentsline {chapter}{ACKNOWLEDGMENTS}{iii}{section*.1}
 \contentsline {chapter}{ABSTRACT}{iv}{section*.2}
-\contentsline {chapter}{LIST OF TABLES}{vi}{chapter.5}
-\contentsline {chapter}{LIST OF FIGURES}{vii}{chapter.7}
-\contentsline {chapter}{1.\hspace {1em}Introduction}{2}{section*.9}
+\contentsline {chapter}{LIST OF TABLES}{vii}{chapter.5}
+\contentsline {chapter}{LIST OF FIGURES}{viii}{chapter.7}
+\contentsline {chapter}{1.\hspace {1em}Introduction and Motivation}{2}{section*.9}
 \vspace { 9.5pt}
-\contentsline {chapter}{2.\hspace {1em}Related Work}{3}{section*.11}
+\contentsline {chapter}{2.\hspace {1em}Standardize Graph Data}{5}{section*.18}
 \vspace { 9.5pt}
-\contentsline {chapter}{3.\hspace {1em}Chapter3}{4}{section*.15}
+\contentsline {section}{\numberline {2.1}Problem Statement}{6}{section.24}
+\contentsline {section}{\numberline {2.2}Related Work}{7}{section.26}
+\contentsline {section}{\numberline {2.3}Summary of Technique}{7}{section.27}
+\contentsline {subsection}{\numberline {2.3.1}Web Crawler Frame with Scrapy}{7}{subsection.28}
+\contentsline {subsection}{\numberline {2.3.2}Extract Data with Scrapy Selectors}{8}{subsection.32}
+\contentsline {subsection}{\numberline {2.3.3}Output Category and Article Graph with igraph}{9}{subsection.35}
+\contentsline {section}{\numberline {2.4}Implementation}{9}{section.36}
+\contentsline {subsection}{\numberline {2.4.1}URL Crawler}{9}{subsection.38}
+\contentsline {subsection}{\numberline {2.4.2}Article Crawler}{11}{subsection.43}
+\contentsline {subsection}{\numberline {2.4.3}Inner Links Crawler}{12}{subsection.48}
+\contentsline {section}{\numberline {2.5}Conclusion}{12}{section.54}
+\contentsline {chapter}{3.\hspace {1em}Extraction Information}{14}{section*.56}
 \vspace { 9.5pt}
-\contentsline {chapter}{4.\hspace {1em}Chapter 4}{5}{section*.17}
+\contentsline {section}{\numberline {3.1}Problem Statement}{14}{section.57}
+\contentsline {section}{\numberline {3.2}Related Work}{14}{section.58}
+\contentsline {section}{\numberline {3.3}Summary of Technique}{14}{section.59}
+\contentsline {section}{\numberline {3.4}Conclusion}{14}{section.60}
+\contentsline {chapter}{4.\hspace {1em}NLP2Graph}{15}{section*.62}
 \vspace { 9.5pt}
-\contentsline {chapter}{5.\hspace {1em}Chapter 5}{6}{section*.19}
+\contentsline {section}{\numberline {4.1}Problem Statement}{15}{section.63}
+\contentsline {section}{\numberline {4.2}Related Work}{15}{section.64}
+\contentsline {section}{\numberline {4.3}Summary of Technique}{15}{section.65}
+\contentsline {section}{\numberline {4.4}Conclusion}{15}{section.66}
+\contentsline {chapter}{5.\hspace {1em}System Implementation}{16}{section*.68}
 \vspace { 9.5pt}
-\contentsline {chapter}{6.\hspace {1em}Chapter 6}{7}{section*.21}
+\contentsline {section}{\numberline {5.1}Problem Statement}{16}{section.69}
+\contentsline {section}{\numberline {5.2}Related Work}{16}{section.70}
+\contentsline {section}{\numberline {5.3}Summary of Technique}{16}{section.71}
+\contentsline {section}{\numberline {5.4}Conclusion}{16}{section.72}
+\contentsline {chapter}{6.\hspace {1em}Experiment}{17}{section*.74}
 \vspace { 9.5pt}
-\contentsline {chapter}{7.\hspace {1em}Conclusion}{8}{section*.23}
+\contentsline {chapter}{7.\hspace {1em}Conclusion and Future Work}{18}{section*.76}
 \vspace { 9.5pt}
