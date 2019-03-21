@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  19 MAR 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  20 MAR 2019 21:10
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -479,17 +479,21 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (../chapter2/chapter2.tex [4] [5
 
 ] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+Package natbib Warning: Citation `bibid' on page 7 undefined on input line 19.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 [7] [8] (fig/Section2.pdf_tex
-<fig/Section2.pdf, id=232, page=1, 733.02795pt x 518.99799pt>
+<fig/Section2.pdf, id=230, page=1, 733.02795pt x 518.99799pt>
 File: fig/Section2.pdf Graphic file (type pdf)
 <use fig/Section2.pdf, page 1>
 Package pdftex.def Info: fig/Section2.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 433.62001pt x 307.02184pt.
-)
+) [9] [10 <./fig/Section2.pdf>]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -498,38 +502,62 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
- [9] [10 <./fig/Section2.pdf>] [11]
-<fig/graphs_category_c.png, id=297, 5018.75pt x 5018.75pt>
+ [11] [12]
+<fig/graphs_category_c.png, id=305, 5018.75pt x 5018.75pt>
 File: fig/graphs_category_c.png Graphic file (type png)
 <use fig/graphs_category_c.png>
-Package pdftex.def Info: fig/graphs_category_c.png  used on input line 82.
+Package pdftex.def Info: fig/graphs_category_c.png  used on input line 85.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
-<fig/graphs_category_ca.png, id=298, 3764.0625pt x 3764.0625pt>
+<fig/graphs_category_ca.png, id=306, 3764.0625pt x 3764.0625pt>
 File: fig/graphs_category_ca.png Graphic file (type png)
 <use fig/graphs_category_ca.png>
-Package pdftex.def Info: fig/graphs_category_ca.png  used on input line 88.
+Package pdftex.def Info: fig/graphs_category_ca.png  used on input line 91.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
-<fig/graphs_category_a.png, id=299, 3764.0625pt x 3764.0625pt>
+<fig/graphs_category_a.png, id=307, 3764.0625pt x 3764.0625pt>
 File: fig/graphs_category_a.png Graphic file (type png)
 <use fig/graphs_category_a.png>
-Package pdftex.def Info: fig/graphs_category_a.png  used on input line 93.
+Package pdftex.def Info: fig/graphs_category_a.png  used on input line 96.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
 )
-(../chapter3/chapter3.tex [12] [13 <./fig/graphs_category_c.png> <./fig/graphs_
-category_ca.png (PNG copy)> <./fig/graphs_category_a.png (PNG copy)>])
-(../chapter4/chapter4.tex [14
+(../chapter3/chapter3.tex [13 <./fig/graphs_category_c.png> <./fig/graphs_categ
+ory_ca.png (PNG copy)> <./fig/graphs_category_a.png (PNG copy)>] [14
 
-]) (../chapter5/chapter5.tex [15
+]
+Overfull \hbox (33.23024pt too wide) in paragraph at lines 17--19
+[]\OT1/cmr/m/n/12 Wikipedia-based Se-man-tic In-ter-pre-ta-tion for Nat-u-ral L
+an-guage Pro-cess-ing [][]Gabrilovich
+ []
 
-])
-(../chapter6/chapter6.tex [16
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ¤ in font cmr12!
+[15]) (../chapter4/chapter4.tex [16]) (../chapter5/chapter5.tex [17
 
-]) (../conclusion/conclusion.tex [17
+]
+Overfull \hbox (7.90274pt too wide) in paragraph at lines 4--5
+[]\OT1/cmr/m/n/12 In this chap-ter, we'll com-bine the work of [][]Stan-dard-iz
+e Graph Data[][] and [][]NLP2SQL[][].
+ []
 
-])
-(dissertation.bbl)
+<fig/Section5.jpg, id=355, 1188.44pt x 1429.34pt>
+File: fig/Section5.jpg Graphic file (type jpg)
+<use fig/Section5.jpg>
+Package pdftex.def Info: fig/Section5.jpg  used on input line 10.
+(pdftex.def)             Requested size: 346.89732pt x 417.22423pt.
+[18
+
+] [19 <./fig/Section5.jpg>]) (../chapter6/chapter6.tex [20])
+(../conclusion/conclusion.tex [21
+
+]) (dissertation.bbl)
+
+Package natbib Warning: There were undefined citations.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
- [18
+[22
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
@@ -539,10 +567,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 96.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
  ) 
 Here is how much of TeX's memory you used:
- 8603 strings out of 493305
- 128273 string characters out of 3138874
- 215635 words of memory out of 3000000
- 11876 multiletter control sequences out of 15000+200000
+ 8639 strings out of 493305
+ 128858 string characters out of 3138874
+ 215825 words of memory out of 3000000
+ 11894 multiletter control sequences out of 15000+200000
  13223 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,8n,39p,1770b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -555,9 +583,9 @@ nts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 sfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on dissertation.pdf (27 pages, 32252292 bytes).
+Output written on dissertation.pdf (31 pages, 32456973 bytes).
 PDF statistics:
- 491 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 

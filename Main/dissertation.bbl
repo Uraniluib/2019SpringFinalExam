@@ -1,14 +1,32 @@
-\begin{thebibliography}{2}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Couderc and Ferrero(2015)]{couderc2015fr2sql}
+Beno{\^\i}t Couderc and J{\'e}r{\'e}my Ferrero.
+\newblock fr2sql: Interrogation de bases de donn{\'e}es en fran{\c{c}}ais.
+\newblock In \emph{22{\`e}me Traitement Automatique des Langues Naturelles},
+  2015.
+
+\bibitem[Gabrilovich and Markovitch(2009)]{gabrilovich2009wikipedia}
+Evgeniy Gabrilovich and Shaul Markovitch.
+\newblock Wikipedia-based semantic interpretation for natural language
+  processing.
+\newblock \emph{Journal of Artificial Intelligence Research}, 34:\penalty0
+  443--498, 2009.
+
 \bibitem[Newman(2003)]{newman2003structure}
 Mark~EJ Newman.
 \newblock The structure and function of complex networks.
 \newblock \emph{SIAM review}, 45\penalty0 (2):\penalty0 167--256, 2003.
+
+\bibitem[Yin et~al.(2015)Yin, Lu, Li, and Kao]{yin2015neural}
+Pengcheng Yin, Zhengdong Lu, Hang Li, and Ben Kao.
+\newblock Neural enquirer: Learning to query tables with natural language.
+\newblock \emph{arXiv preprint arXiv:1512.00965}, 2015.
 
 \bibitem[Zesch and Gurevych(2007)]{zesch2007analysis}
 Torsten Zesch and Iryna Gurevych.
