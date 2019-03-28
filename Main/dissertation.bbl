@@ -1,9 +1,14 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{12}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Clauset et~al.(2009)Clauset, Shalizi, and Newman]{clauset2009power}
+Aaron Clauset, Cosma~Rohilla Shalizi, and Mark~EJ Newman.
+\newblock Power-law distributions in empirical data.
+\newblock \emph{SIAM review}, 51\penalty0 (4):\penalty0 661--703, 2009.
 
 \bibitem[Couderc and Ferrero(2015)]{couderc2015fr2sql}
 Beno{\^\i}t Couderc and J{\'e}r{\'e}my Ferrero.
@@ -18,10 +23,37 @@ Evgeniy Gabrilovich and Shaul Markovitch.
 \newblock \emph{Journal of Artificial Intelligence Research}, 34:\penalty0
   443--498, 2009.
 
+\bibitem[Miller(1998)]{miller1998wordnet}
+George Miller.
+\newblock \emph{WordNet: An electronic lexical database}.
+\newblock MIT press, 1998.
+
 \bibitem[Newman(2003)]{newman2003structure}
 Mark~EJ Newman.
 \newblock The structure and function of complex networks.
 \newblock \emph{SIAM review}, 45\penalty0 (2):\penalty0 167--256, 2003.
+
+\bibitem[Newman(2005)]{newman2005power}
+Mark~EJ Newman.
+\newblock Power laws, pareto distributions and zipf's law.
+\newblock \emph{Contemporary physics}, 46\penalty0 (5):\penalty0 323--351,
+  2005.
+
+\bibitem[Steyvers and Tenenbaum(2005)]{steyvers2005large}
+Mark Steyvers and Joshua~B Tenenbaum.
+\newblock The large-scale structure of semantic networks: Statistical analyses
+  and a model of semantic growth.
+\newblock \emph{Cognitive science}, 29\penalty0 (1):\penalty0 41--78, 2005.
+
+\bibitem[Wasserman and Faust(1994)]{wasserman1994social}
+Stanley Wasserman and Katherine Faust.
+\newblock \emph{Social network analysis: Methods and applications}, volume~8.
+\newblock Cambridge university press, 1994.
+
+\bibitem[Watts and Strogatz(1998)]{watts1998collective}
+Duncan~J Watts and Steven~H Strogatz.
+\newblock Collective dynamics of ‘small-world’networks.
+\newblock \emph{nature}, 393\penalty0 (6684):\penalty0 440, 1998.
 
 \bibitem[Yin et~al.(2015)Yin, Lu, Li, and Kao]{yin2015neural}
 Pengcheng Yin, Zhengdong Lu, Hang Li, and Ben Kao.
@@ -33,5 +65,13 @@ Torsten Zesch and Iryna Gurevych.
 \newblock Analysis of the wikipedia category graph for nlp applications.
 \newblock In \emph{Proceedings of the Second Workshop on TextGraphs:
   Graph-Based Algorithms for Natural Language Processing}, pages 1--8, 2007.
+
+\bibitem[Zlati{\'c} et~al.(2006)Zlati{\'c}, Bo{\v{z}}i{\v{c}}evi{\'c},
+  {\v{S}}tefan{\v{c}}i{\'c}, and Domazet]{zlatic2006wikipedias}
+Vinko Zlati{\'c}, Miran Bo{\v{z}}i{\v{c}}evi{\'c}, Hrvoje
+  {\v{S}}tefan{\v{c}}i{\'c}, and Mladen Domazet.
+\newblock Wikipedias: Collaborative web-based encyclopedias as complex
+  networks.
+\newblock \emph{Physical Review E}, 74\penalty0 (1):\penalty0 016115, 2006.
 
 \end{thebibliography}

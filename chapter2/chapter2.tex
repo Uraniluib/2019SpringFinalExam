@@ -6,21 +6,16 @@ For the original raw data, we choose the semi-structure data from \href{http://w
 
 \section{Problem Statement}
 \label{Ch-2:Sec:Problem Statement}
-
-From this subsection, we begin to state our problem definition. The data structure from Tolkien Gateway is like the one from Wikipedia. Raw data shared by \href{http://www.gnu.org/licenses/fdl-1.3.en.html}{GNU Free Documentation License}\footnote{\href{http://www.gnu.org/licenses/fdl-1.3.en.html}{http://www.gnu.org/licenses/fdl-1.3.en.html}} which we can get directly from request messages by using web crawlers through TG APIs and save the data into local text files for the next steps. Then, based on the paper of \cite{zesch2007analysis}, an article graph and a category graph can be set up from the raw data. 
+From this subsection, we begin to state our problem definition. The data structure from Tolkien Gateway is like the one from Wikipedia. Raw data shared by \href{http://www.gnu.org/licenses/fdl-1.3.en.html}{GNU Free Documentation License}\footnote{\href{http://www.gnu.org/licenses/fdl-1.3.en.html}{http://www.gnu.org/licenses/fdl-1.3.en.html}} which we can get directly from request messages by using web crawlers through TG APIs and save the data into local text files for the next steps. Then, based on the paper (\cite{zesch2007analysis}), an article graph and a category graph can be set up from the raw data. 
 As this search engine needs to meet the requirements of Graph discovery and natural language process, an undirected graph with labels and attributes is necessary to the experiment, which can also fit the structure of wiki pages (articles) with categories. \\
 So, we define the input raw data as $D := (P, C)$, and the output graph as $G := (V, L, A, E)$. $D$ represents raw data combined with $P$ as wiki article/content pages and $C$ as category pages. $G$ refers to the undirected Graph we need to build from $D$ to store these relationships, including $V$ as vertices, a collection of nodes (article Ids); $L$ as labels, a collection of nodes (category Ids), separated with $V$ by different shapes and colors; $A$ as attributes (option), a small set of nodes with attribute names described one article vertex $v \in V$ detailedly; $E$ as edges, a group of relationships between nodes (four different kinds: $V$ and $V$, $L$ and $L$, $V$ and $L$, $V$ and $A$) (\cite{newman2003structure}). 
 
 \section{Related Work}
-(unfinished)
-
 \label{Ch-2:Sec:Related Work}
-\cite{zesch2007analysis}, taxonomy-like structure WCG and article graph
-\cite{bibid}
+This kind of graph module is introduced in paper (\cite{zesch2007analysis}), called Wikipedia Category Graph (WCG) of which has a semantical network of articles building from related terms and a taxonomy-like structure of categories. The paper (\cite{zesch2007analysis}) conclude that WCG is a scale-free, small-world graph like WordNet (\cite{miller1998wordnet}) which can be used for NLP tasks through a series of graph-theoretic analyses according to semantic relatedness (SR) measures. Thus, if $G$ meets the standard of those semantic networks, the NLP algorithms can be applied on this graph as it is described in the paper.
 
 \section{Summary of Technique}
 \label{Ch-2:Sec:Summary of Technique}
-
 To get the raw data from a wiki farm, clean the data and change the semi-structure files into a graph, we use these technique listed below.
 
 \subsection{Web Crawler Frame with Scrapy}
@@ -99,8 +94,28 @@ Finally, merge the clean data extracted from the results of three crawlers shown
 	\caption{Process of Standardizing a Graph from Raw Data} \label{fig:section2-pic234}
 \end{figure}
 
+\section{Graph-theoretic Analysis}
+\label{Ch-2:Sec:Analysis of Graph}
+
+After the graph standardization, we need to analyze whether $G_L$ meets the particularities of scale-free, small world graphs. If the answer is ``yes'', the algorithms which works for WCG can be transferred to $G_L$. The parameters (listed in \cite{zesch2007analysis}) are number of vertices $|V|$, diameter $D$, average degree $\bar{k}$, power law exponent $\gamma$ (\cite{newman2005power}, \cite{clauset2009power}), average shortest path length $\bar{L}$, average shortest path length for a random graph $\bar{L}_{random}$ (\cite{watts1998collective}), clustering coefficient $C$ (\cite{wasserman1994social}) and clustering coefficient for a random graph $\bar{C}_{random}$ (\cite{zlatic2006wikipedias}). The parameter values for WCG are quoted from \cite{zesch2007analysis}, while values for WordNet are from according to \cite{steyvers2005large}.
+
+\begin{table}[]
+	\label{table:parameter values}
+	\begin{tabularx}{\textwidth}{@{}ccccc@{}}
+		\toprule
+		Parameter & TG graph $G_L$ & WCG & WordNet & Explanation \\ \midrule\hline
+		$|V|$ & 1120 & 27,865 & 122,005 & number of vertices \\ \hline
+		$D$ & 13 & 17 & 27 & \begin{tabular}[c]{@{}c@{}}maximum eccentricity\\  of any vertex\end{tabular} \\ \hline
+		$\bar{k}$ & 2.85 & 3.54 & 4.0 & \begin{tabular}[c]{@{}c@{}}avg number of edges\\ connected with a vertex\end{tabular} \\\hline
+		$\gamma$ & 2.66 & 2.12 & 3.11 & a particularity of scale-free network \\\hline
+		$\bar{L}$ & 7.05 & 7.18 & 10.56 & average shortest path lengths \\\hline
+		$\bar{L}_{random}$ & $\sim$6.70 & $\sim$8.10 & 10.61 & \begin{tabular}[c]{@{}c@{}}average shortest path\\ length for a random graph\end{tabular} \\\hline
+		$C$ & 0.021 & 0.012 & 0.027 & clustering coefficient \\\hline
+		$C_{random}$ & 0.0087 & 0.0008 & 0.0001 & \begin{tabular}[c]{@{}c@{}}clustering coefficient\\ for a random graph\end{tabular} \\ \bottomrule
+	\end{tabularx}
+	\caption{Parameter Values of $G_L$ and WCG (from \cite{zesch2007analysis})} 
+\end{table}
+
 \section{Conclusion}
-(unfinished)
-
-
-
+As $G_L$ is a semantic network and follows a power law, $G_L$ is a scale-free graph. From the results of $G_L$ in \nameref{table:parameter values}, we can see that small values of $\bar{L} \gtrsim \bar{L}_{random}$ with large values of $C \gg C_{random}$ (\cite{zesch2007analysis}). $G_L$ meets the characteristics of small-world graphs which can be used for natural language processing tasks. \\
+What's more, article graph $G_V$ is a heavily linked semantic networks. After adding $G_V$ to $G_L$, its degree distribution still follows a power law, with $\gamma = 2.01$. Thus, $G$ is a scale-free graph, with a small-word label graph and a heavily linked article graph.

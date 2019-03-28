@@ -16,27 +16,28 @@
 \contentsline {subsection}{\numberline {2.4.1}URL Crawler}{11}{subsection.38}
 \contentsline {subsection}{\numberline {2.4.2}Article Crawler}{12}{subsection.43}
 \contentsline {subsection}{\numberline {2.4.3}Inner Links Crawler}{12}{subsection.48}
-\contentsline {section}{\numberline {2.5}Conclusion}{13}{section.54}
-\contentsline {chapter}{3.\hspace {1em}NLP2SQL}{14}{section*.56}
+\contentsline {section}{\numberline {2.5}Graph-theoretic Analysis}{13}{section.54}
+\contentsline {section}{\numberline {2.6}Conclusion}{14}{section.56}
+\contentsline {chapter}{3.\hspace {1em}NLP2SQL}{16}{section*.58}
 \vspace { 9.5pt}
-\contentsline {section}{\numberline {3.1}Problem Statement}{14}{section.57}
-\contentsline {section}{\numberline {3.2}Related Work}{14}{section.58}
-\contentsline {section}{\numberline {3.3}Summary of Technique}{15}{section.59}
-\contentsline {subsection}{\numberline {3.3.1}SQLite with sqlite3}{15}{subsection.60}
-\contentsline {subsection}{\numberline {3.3.2}Seq2SQL}{16}{subsection.63}
-\contentsline {section}{\numberline {3.4}Conclusion}{16}{section.64}
-\contentsline {chapter}{4.\hspace {1em}NLP2Graph}{17}{section*.66}
+\contentsline {section}{\numberline {3.1}Problem Statement}{16}{section.59}
+\contentsline {section}{\numberline {3.2}Related Work}{16}{section.60}
+\contentsline {section}{\numberline {3.3}Summary of Technique}{17}{section.61}
+\contentsline {subsection}{\numberline {3.3.1}SQLite with sqlite3}{17}{subsection.62}
+\contentsline {subsection}{\numberline {3.3.2}Seq2SQL}{18}{subsection.65}
+\contentsline {section}{\numberline {3.4}Conclusion}{18}{section.66}
+\contentsline {chapter}{4.\hspace {1em}NLP2Graph}{19}{section*.68}
 \vspace { 9.5pt}
-\contentsline {section}{\numberline {4.1}Problem Statement}{17}{section.67}
-\contentsline {section}{\numberline {4.2}Related Work}{17}{section.68}
-\contentsline {section}{\numberline {4.3}Summary of Technique}{17}{section.69}
-\contentsline {section}{\numberline {4.4}Conclusion}{17}{section.70}
-\contentsline {chapter}{5.\hspace {1em}System Implementation}{18}{section*.72}
+\contentsline {section}{\numberline {4.1}Problem Statement}{19}{section.69}
+\contentsline {section}{\numberline {4.2}Related Work}{19}{section.70}
+\contentsline {section}{\numberline {4.3}Summary of Technique}{19}{section.71}
+\contentsline {section}{\numberline {4.4}Conclusion}{19}{section.72}
+\contentsline {chapter}{5.\hspace {1em}System Implementation}{20}{section*.74}
 \vspace { 9.5pt}
-\contentsline {section}{\numberline {5.1}Frame of System}{18}{section.73}
-\contentsline {section}{\numberline {5.2}Summary of Technique}{20}{section.78}
-\contentsline {section}{\numberline {5.3}Conclusion}{20}{section.81}
-\contentsline {chapter}{6.\hspace {1em}Experiment}{21}{section*.83}
+\contentsline {section}{\numberline {5.1}Frame of System}{20}{section.75}
+\contentsline {section}{\numberline {5.2}Summary of Technique}{22}{section.80}
+\contentsline {section}{\numberline {5.3}Conclusion}{22}{section.83}
+\contentsline {chapter}{6.\hspace {1em}Experiment}{23}{section*.85}
 \vspace { 9.5pt}
-\contentsline {chapter}{7.\hspace {1em}Conclusion and Future Work}{22}{section*.85}
+\contentsline {chapter}{7.\hspace {1em}Conclusion and Future Work}{24}{section*.87}
 \vspace { 9.5pt}
