@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  27 MAR 2019 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.7.12)  29 MAR 2019 14:34
 entering extended mode
 **./dissertation.tex
 (dissertation.tex
@@ -484,42 +484,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (../pretext/acknowledge.tex [3]) (../pretext/abstract.tex [4
 
 ])
-(dissertation.toc [5])
+(dissertation.toc)
 \tf@toc=\write3
 \openout3 = `dissertation.toc'.
 
- [6] (dissertation.lot)
-\tf@lot=\write4
-\openout4 = `dissertation.lot'.
+ [5] (../chapter1/chapter1.tex [1
 
- [7
 
-] (dissertation.lof)
-\tf@lof=\write5
-\openout5 = `dissertation.lof'.
+] [2])
+(../chapter2/chapter2.tex [3] [4
 
- [8
-
-]
-(../pretext/dedicate.tex) (../chapter1/chapter1.tex [1
-
-] [2
-
-] [3])
-(../chapter2/chapter2.tex [4] [5
-
-] [6]
+] [5]
 Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-[7] [8] (fig/Section2.pdf_tex
-<fig/Section2.pdf, id=242, page=1, 733.02795pt x 518.99799pt>
+[6] [7] (fig/Section2.pdf_tex
+<fig/Section2.pdf, id=197, page=1, 733.02795pt x 518.99799pt>
 File: fig/Section2.pdf Graphic file (type pdf)
 <use fig/Section2.pdf, page 1>
 Package pdftex.def Info: fig/Section2.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 433.62001pt x 307.02184pt.
-) [9] [10 <./fig/Section2.pdf>]
+) [8] [9 <./fig/Section2.pdf>]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -528,25 +514,25 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
- [11] [12]
-<fig/graphs_category_c.png, id=317, 5018.75pt x 5018.75pt>
+ [10] [11]
+<fig/graphs_category_c.png, id=272, 5018.75pt x 5018.75pt>
 File: fig/graphs_category_c.png Graphic file (type png)
 <use fig/graphs_category_c.png>
 Package pdftex.def Info: fig/graphs_category_c.png  used on input line 80.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
-<fig/graphs_category_ca.png, id=318, 3764.0625pt x 3764.0625pt>
+<fig/graphs_category_ca.png, id=273, 3764.0625pt x 3764.0625pt>
 File: fig/graphs_category_ca.png Graphic file (type png)
 <use fig/graphs_category_ca.png>
 Package pdftex.def Info: fig/graphs_category_ca.png  used on input line 86.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
-<fig/graphs_category_a.png, id=319, 3764.0625pt x 3764.0625pt>
+<fig/graphs_category_a.png, id=274, 3764.0625pt x 3764.0625pt>
 File: fig/graphs_category_a.png Graphic file (type png)
 <use fig/graphs_category_a.png>
 Package pdftex.def Info: fig/graphs_category_a.png  used on input line 91.
 (pdftex.def)             Requested size: 134.42114pt x 134.39764pt.
- [13 <./fig/graphs_category_c.png> <./fig/graphs_category_ca.png (PNG copy)> <.
-/fig/graphs_category_a.png (PNG copy)>]) (../chapter3/chapter3.tex [14] [15] [1
-6
+ [12 <./fig/graphs_category_c.png> <./fig/graphs_category_ca.png (PNG copy)> <.
+/fig/graphs_category_a.png (PNG copy)>]) (../chapter3/chapter3.tex [13] [14] [1
+5
 
 ]
 Overfull \hbox (33.23024pt too wide) in paragraph at lines 17--19
@@ -560,25 +546,23 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no § in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¤ in font cmr12!
-[17]) (../chapter4/chapter4.tex [18]) (../chapter5/chapter5.tex [19
-
-]
+[16]) (../chapter5/chapter5.tex [17]
 Overfull \hbox (7.90274pt too wide) in paragraph at lines 4--5
 []\OT1/cmr/m/n/12 In this chap-ter, we'll com-bine the work of [][]Stan-dard-iz
 e Graph Data[][] and [][]NLP2SQL[][].
  []
 
-<fig/Section5.jpg, id=407, 1188.44pt x 1429.34pt>
+<fig/Section5.jpg, id=360, 1188.44pt x 1429.34pt>
 File: fig/Section5.jpg Graphic file (type jpg)
 <use fig/Section5.jpg>
 Package pdftex.def Info: fig/Section5.jpg  used on input line 10.
 (pdftex.def)             Requested size: 346.89732pt x 417.22423pt.
-[20
+[18
 
-] [21 <./fig/Section5.jpg>]) (../chapter6/chapter6.tex [22])
-(../conclusion/conclusion.tex [23
+] [19 <./fig/Section5.jpg>]) (../chapter6/chapter6.tex [20])
+(../conclusion/conclusion.tex [21
 
-]) (dissertation.bbl [24
+]) (dissertation.bbl [22
 
 ]
 Missing character: There is no â in font cmr12!
@@ -589,7 +573,7 @@ Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 )
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
- [25]
+ [23]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
 
 (dissertation.aux)
@@ -598,10 +582,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 98.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 8781 strings out of 493305
- 131049 string characters out of 3138874
- 222305 words of memory out of 3000000
- 12017 multiletter control sequences out of 15000+200000
+ 8745 strings out of 493305
+ 130275 string characters out of 3138874
+ 222212 words of memory out of 3000000
+ 12009 multiletter control sequences out of 15000+200000
  14471 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,16n,43p,1770b,499s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -617,9 +601,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKT
 eX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on dissertation.pdf (34 pages, 32499154 bytes).
+Output written on dissertation.pdf (29 pages, 32489992 bytes).
 PDF statistics:
- 612 PDF objects out of 1000 (max. 8388607)
- 138 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 545 PDF objects out of 1000 (max. 8388607)
+ 124 named destinations out of 1000 (max. 500000)
+ 210 words of extra memory for PDF output out of 10000 (max. 10000000)
 
