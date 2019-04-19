@@ -24,10 +24,11 @@
 % -------------- Information Macros ---------------------------------------------
 
 % define spacing macros
-\providecommand{\singlespace}{\renewcommand{\baselinestretch}{1.0} \small\normalsize}
-\providecommand{\singlespaceNormal}{\renewcommand{\baselinestretch}{1.0} \normalsize}
-\providecommand{\doublespace}{\renewcommand{\baselinestretch}{2.0} \small\normalsize}
-\providecommand{\quadspace}{\renewcommand{\baselinestretch}{4.0} \small\normalsize}
+\renewcommand{\baselinestretch}{1.4}
+\providecommand{\singlespace}{\renewcommand{\baselinestretch}{0.5} \small\normalsize}
+\providecommand{\singlespaceNormal}{\renewcommand{\baselinestretch}{0.5} \normalsize}
+\providecommand{\doublespace}{\renewcommand{\baselinestretch}{0.5} \small\normalsize}
+\providecommand{\quadspace}{\renewcommand{\baselinestretch}{0.5} \small\normalsize}
 
 \let\@afterindentfalse\@afterindenttrue
 \@afterindentfalse
@@ -94,7 +95,7 @@
 \newcommand{\setUpThesisPages}{
  % Page setup: In most cases you won't need to change this.
 \setpapersize{USletter}
-\setmarginsrb{1.25in}{1.25in}{1.25in}{1.25in}  % left, top, right, bottom
+\setmarginsrb{1in}{0.7in}{1in}{0.7in}  % left, top, right, bottom
              {0ex}{5ex}{0in}{0.15in} % headht, headsp, footht, footsp
 \setlength\ULdepth{0.9ex}
 }
@@ -114,7 +115,7 @@
 %\addtocontents{toc}{\hfill Page}
 \let\WriteBookmarks\relax
 \pdfbookmark[0]{Table of Contents}{theTOC}
-\tableofcontents \clearpage
+\tableofcontents 
 %\listoftables \clearpage
 %\listoffigures \clearpage
 %\addtocontents{toc}{\hspace{-2.5em}Chapter}
@@ -192,19 +193,19 @@
 	       \singlespace
            \hrulefill \\
 	       \mycommitteea, Ph.D., Chair \\
-	       \vspace{2.0 \baselineskip}
+	       \vspace{4.0 \baselineskip}
 	       \hrulefill \\
 	       \mycommitteeb, Ph.D. \\
-	       \vspace{2.0 \baselineskip}
+	       \vspace{4.0 \baselineskip}
 	       \hrulefill \\
 	       \mycommitteec, Ph.D. \\
            \if@mycommitteed
-               \vspace{2.0 \baselineskip}
+               \vspace{4.0 \baselineskip}
     	       \hrulefill \\
     	       \mycommitteed, Ph.D. \\
            \fi
            \if@mycommitteee
-               \vspace{2.0 \baselineskip}
+               \vspace{4.0 \baselineskip}
     	       \hrulefill \\
     	       \mycommitteee, Ph.D. \\
            \fi
@@ -251,7 +252,7 @@
    \phantomsection
    \addcontentsline{toc}{chapter}{ACKNOWLEDGMENTS}
    \def\toclevel@section{1}
-   \vspace*{2.0 \baselineskip}
+   \vspace*{1.0 \baselineskip}
    \begin{center}\textbf{ACKNOWLEDGMENTS}\end{center}
 }{\newpage}
 
@@ -265,8 +266,8 @@
     \newpage
     \begin{center}\large\bfseries{SUMMARY AND CONCLUSIONS}\end{center}
     %\par
-    \vspace{2ex}{\hrule height 2pt}\vspace{7ex}
-    \vspace{4.5ex}
+    \vspace{1ex}{\hrule height 2pt}\vspace{3.5ex}
+    \vspace{2ex}
    %\resetbaselineskip\normalfont\normalsize
    \normalfont\normalsize
 }{\newpage}
@@ -275,25 +276,28 @@
 
 \newenvironment{abstract}{
    \def\toclevel@section{0}
-   \cleardoublepage
+   %\cleardoublepage
    \phantomsection
    \addcontentsline{toc}{chapter}{ABSTRACT}
    \def\toclevel@section{1}
-   \vspace*{2.0 \baselineskip}
+   \vspace*{1.0 \baselineskip}
    \begin{center}
       \MakeUppercase{\mytitle} \\
-      Abstract \\
+      \vspace{20pt}
       \doublespace
       by \myname, M.S.\\
+	  \vspace{5pt}
       \singlespace
       \myschool \\
+	  \vspace{5pt}
       \mydate \\
-      \quadspace
+	  \vspace{5pt}
+      \quadspace\quadspace
    \end{center}
-      Chair: \mycommitteea
-   \doublespace
+      %Chair: \mycommitteea
+   \normalfont\normalsize
 }
-{\newpage}
+%{\newpage}
 
 %*********************************************************************************
 

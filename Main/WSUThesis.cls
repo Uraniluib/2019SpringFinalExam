@@ -98,14 +98,14 @@
 \newlength{\headwidth}\setlength{\headwidth}{\textwidth}
 \addtolength{\headwidth}{-2em}%{-6pt}
 \newlength{\@headheight} \setlength{\@headheight}{\headheight}
-\newlength{\@extraheadheight} \setlength{\@extraheadheight}{4\baselineskip}
+\newlength{\@extraheadheight} \setlength{\@extraheadheight}{1\baselineskip}
 \newcounter{reducedpagenumber}
 \newlength{\@pagenumberwidth}
 
 \if@compatibility\else\@settopoint\textwidth\fi
 \setlength\lineskip{1pt}
 \setlength\normallineskip{1pt}
-\renewcommand\baselinestretch{1.655}
+\renewcommand\baselinestretch{0.9}
 \def\resetbaselineskip{\def\baselinestretch{1}\large\normalsize\relax}
 
 \@lowpenalty   51
@@ -118,7 +118,7 @@
 \displaywidth\textwidth
 \linewidth\textwidth
 \def\footnoterule{\kern-5.25pt\hrule width.5in\kern4.85pt}
-\parskip 0pt plus 1pt
+\parskip 10pt plus 1pt
 \columnsep 10pt
 \columnseprule 0pt
 \arraycolsep 3pt
@@ -128,6 +128,7 @@
 \tabbingsep \labelsep
 \fboxsep 3pt
 \fboxrule .4pt
+
 
 \setcounter{topnumber}{2}
 \renewcommand\topfraction{.8}
@@ -208,15 +209,14 @@
       \cleardoublepage
       \phantomsection
       \addcontentsline{toc}{chapter}{\thechapter.\hspace{1em}#1}
-      \addtocontents{toc}{\vspace{ 9.5pt}}
+      \addtocontents{toc}{\vspace{ 2.5pt}}
       \def\toclevel@chapter{0}
     \markboth{}{}%
     {\ifnum \c@secnumdepth >-2\relax
        \flushleft\large\bfseries{CHAPTER~\thechapter.} % font size 14
      \fi
      \centering\large\bfseries\MakeUppercase{#2}\par}% font size 14
-     \vspace{2ex}{\hrule height 2pt}\vspace{7ex}
-     \vspace{4.5ex}
+     \vspace{2ex}{\hrule height 2pt}\vspace{0.5ex}
 }
 \def\@schapter#1{%
     {
@@ -232,20 +232,20 @@
 
 \newcommand\section{
                    \@startsection {section}{2}{\z@}%
-                   {3em}
-                   {2em}
+                   {0em}
+                   {0.1em}
                    {\resetbaselineskip\normalfont\large\bfseries}} % font size 14
                    
 \newcommand\subsection{
                       \@startsection{subsection}{3}{\z@}%
-                       {3em}%
-                       {2em}
+                       {0em}%
+                       {0.01em}
                        {\resetbaselineskip\normalfont\large\slshape}} % font size 14               
                    
 \newcommand\subsubsection{
                          \@startsection{subsubsection}{4}{\z@}%
                          {-3.25ex\@plus -1ex \@minus -.2ex}%
-                         {1.5ex \@plus .2ex}%
+                         {0.5ex \@plus .2ex}%
                          {\resetbaselineskip\normalfont\normalsize\bfseries}}
 \setlength\leftmargini  {2.5em}
 \leftmargin\leftmargini
@@ -373,7 +373,7 @@
 \long\def\@makecaption#1#2{%
   \vskip\abovecaptionskip
   \reset@font\normalsize\normalfont\rmfamily
-  \baselineskip 1\@ptsize pt \@plus 2pt \@minus 1pt
+  \baselineskip 1\\@ptsize pt \@plus 2pt \@minus 1pt
   \sbox\@tempboxa{#1: #2}%
   \ifdim \wd\@tempboxa >\hsize
     #1: #2\par
@@ -475,7 +475,7 @@
                 \@mkboth{\MakeUppercase\indexname}%
                         {\MakeUppercase\indexname}%
                 \thispagestyle{plain}\parindent\z@
-                \parskip\z@ \@plus .3\p@\relax
+                \parskip \z@ \@plus .3\p@\relax
                 \let\item\@idxitem}
                {\if@restonecol\onecolumn\else\clearpage\fi}
 \newcommand\@idxitem{\par\hangindent 40\p@}
@@ -495,6 +495,7 @@
     \parindent 1em%
     \noindent
     \baselineskip 1\@ptsize pt
+    \setlength\footnotesep{0.5\footnotesep}
     \hb@xt@1.8em{\hss\@makefnmark}#1}
 \addtolength{\skip\footins}{1em \@plus 4\p@ \@minus 2\p@}
 

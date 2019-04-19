@@ -1,35 +1,17 @@
-\chapter{NLP2SQL}
+\chapter{Interpret Natural Language to structured query}
 \label{Ch-3:Sec:Extraction}
-
 In this chapter, we begin to set up the NLP module required in the Q\&A system. 
 
 \section{Problem Statement}
-
+\vspace{-10pt}
 Now we have a cleaned dataset which includes vertices $V$ and their attributes $A$. Giving a better way to connect with the MySQL database of the wiki farm. Thus, we decide to change the natural language question to a SQL query. The relationships between $V$ and $A$ are changed into a relational database $T$. each attribute has its own table $t \in T$.\\
-The graph with labels and attributes is still kept for the basic searching, giving the user an intuitive grasp of what they want. To enhance the comprehension of search engine, we annotate manually 100 questions with its corresponding SQL queries, like the WikiSQL from \cite{yin2015neural}.
-
-\section{Related Work}
-(unfinished)
-
-Neural Enquirer: Learning to Query Tables in Natural Language
-\cite{yin2015neural}
-
-Wikipedia-based Semantic Interpretation for Natural Language Processing
-\cite{gabrilovich2009wikipedia}
-
-fr2sql: Interrogation de bases de données en français
-\cite{couderc2015fr2sql}
+\indent The graph with labels and attributes is still kept for the basic searching, giving the user an intuitive grasp of what they want. To enhance the comprehension of search engine, we annotate manually 100 questions with its corresponding SQL queries like WikiSQL \cite{yin2015neural}.
 
 \section{Summary of Technique}
+\vspace{-10pt}
+\href{https://www.sqlite.org/index.html}{SQLite} can build lightweight disk-based SQL databases not requiring installing separate server process. However, SQLite is a C library which needs interface to interact with other programming language. Thus, we choose \href{https://docs.python.org/3.4/library/sqlite3.html}{sqlite3} to finish this part of work. The sqlite3 module is a DB-API 2.0 interface for SQLite databases written by Gerhard Häring supporting Python language. NLP2SQL is a problem which has many ways to solve it. One of them is using a deep neural network \cite{yin2015neural}. In another paper of Seq2SQL \cite{zhongSeq2SQL2017}, the author gives a model of translating natural language questions to corresponding SQL queries. However, small wikis doesn't have enough original data to support the reinforcement learning. Thus, we choose a simpler implementation called Ln2SQL based on Fr2SQL \cite{couderc2015fr2sql}. Although Ln2SQL is not quite state-of-the-art and has some problems of finding the stems, it has speed optimizations which can save a lot of time.
 
-\subsection{SQLite with sqlite3}
-
-SQLite\footnote{https://www.sqlite.org/index.html} can build lightweight disk-based SQL databases not requiring installing separate server process. However, SQLite is a C library which needs interface to interact with other programming language. Thus, we choose sqlite3\footnote{https://docs.python.org/3.4/library/sqlite3.html} to finish this part of work. The sqlite3 module is a DB-API 2.0 interface for SQLite databases written by Gerhard Häring supporting Python language.
-
-\subsection{Seq2SQL}
-
-Seq2SQL is a deep neural network introduced in the paper \cite{yin2015neural}. In this paper, the author gives a model of translating natural language questions to corresponding SQL queries. It is trained by the WikiSQL, a dataset of hand-annotated examples of questions with their corresponding SQL, which gives rewards to learn a better policy to generate the query. Also, Seq2SQL can offer an advantage of the SQL structure and simplify the original problem.
-
-\section{Conclusion}
-
-(unfinished)
+\section{Implementation}
+\vspace{-10pt}
+Firstly, build the relational table with tuples (node id, attribute name and attribute id). The attribute ids are node ids, which can be used for graph data visualization in next chapter. Then, we fork an implementation called \href{https://github.com/FerreroJeremy/ln2sql}{Ln2SQL} from Github. We update our new features and teach this program to reorganize the terminology from our database. Finally, when it can correctly reply some simple questions, we pack this NLP2SQL module and move to the next step.
+ 

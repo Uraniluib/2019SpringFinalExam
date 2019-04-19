@@ -14,7 +14,7 @@
 \usepackage{multirow}
 \usepackage{makeidx}
 \usepackage{subcaption}
-\usepackage{natbib}
+\usepackage[numbers]{natbib}
 \usepackage{tabularx}
 \usepackage{booktabs}
 \usepackage[breaklinks]{hyperref}
@@ -35,6 +35,13 @@
 }
 \usepackage[all]{hypcap}
 \usepackage{bookmark}
+\usepackage{enumitem}
+\setenumerate[1]{itemsep=2pt,partopsep=-15pt,parsep=0pt,topsep=-5pt}
+\setitemize[1]{itemsep=2pt,partopsep=-15pt,parsep=0pt,topsep=-5pt}
+\setdescription{itemsep=2pt,partopsep=-15pt,parsep=0pt,topsep=-5pt}
+\setlength{\skip\footins}{1.2pc plus 5pt minus 2pt}
+\usepackage[all]{nowidow}
+\renewcommand{\floatpagefraction}{.95}
 
 \newtheorem{mydef}{Definition}
 
@@ -46,34 +53,34 @@
 
 % set your information here:
 \setmyname{Jinglin Tao}  % NAME
-\setmymonth{March}                  % Month degree is granted
+\setmymonth{April}                  % Month degree is granted
 \setmyyear{2019}                  % Year degree is granted
 \setmycommitteea{Yinghui Wu}    % Committee Members:
 \setmycommitteeb{Assefaw Gebremedhin}
-\setmycommitteec{Larry Holder}
+\setmycommitteec{Lawrence Holder}
 %\setmycommitteed{Fourth Committee Member}
 %\setmycommitteee{Fifth Committee Member}
 
-\setmytitle{Automatically building a Knowledge-based Q\&A System} %Title
+\setmytitle{\textbf{SEEKER: Knowledge-based Q \& A System for Wiki Farms}} %Title
 
 \setmydept{Department of Electrical Engineering and Computer Science} % DEPARTMENT
 \setmyschool{Washington State University}                                           % SCHOOL
 \setmydegree{Master Science of Computer Science}                                    % DEGREE TYPE
-\setmythesis{Dissertation}                                            % Dissertation (Ph.D)
-\setCopyright                                                         % Adds the copyright notice. Comment this line if material is not copyrighted.
+%\setmythesis{Dissertation}                                            % Dissertation (Ph.D)
+%\setCopyright                                                         % Adds the copyright notice. Comment this line if material is not copyrighted.
 
 %*************** Prologue *************************************
 
 \begin{document}
 
 % pretext pages
-\DisplayTitlePage     % displays the title page with your provided information
-\DisplayCopyright     % displays the copyright page with your provided information:
+%\DisplayTitlePage     % displays the title page with your provided information
+%\DisplayCopyright     % displays the copyright page with your provided information:
                       % you don't need need to comment this line even if you don't have copyrighted material. Just commenting \setCopyright suffices.
-\DisplaySignaturePage % displays the signature page with your provided information
-\input{./../pretext/acknowledge}
-\input{./../pretext/abstract}
+%\DisplaySignaturePage % displays the signature page with your provided information
 
+\input{./../pretext/abstract}
+%\input{./../pretext/acknowledge}
 % Table of contents, list of figures, list of tables
 \setUpTables
 
@@ -91,7 +98,8 @@
 
 %*************** Epilogue *************************************
 \let\WriteBookmarks\relax
-\pdfbookmark[0]{Bibliography}{thebibliography}
+\bibliographystyle{IEEEtran}
+%\pdfbookmark[0]{Bibliography}{thebibliography}
 \bibliography{./bibtex/refs}
 \bibliographystyle{plainnat}
 
